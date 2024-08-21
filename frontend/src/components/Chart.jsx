@@ -1,35 +1,3 @@
-// import React from 'react';
-// import { Bar } from 'react-chartjs-2';
-// import { Chart as ChartJS, BarElement, CategoryScale, LinearScale, Tooltip, Legend } from 'chart.js';
-
-// ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
-
-// function Chart({ users }) {
-//     const data = {
-//         labels: users.map((user) => new Date(user.lastLogin).toLocaleDateString()),
-//         datasets: [
-//             {
-//                 label: 'User Login Count',
-//                 data: users.map((user) => user.count),
-//                 backgroundColor: 'rgba(75, 192, 192, 0.6)',
-//             },
-//         ],
-//     };
-
-//     const options = {
-//         scales: {
-//             x: {
-//                 beginAtZero: true,
-//             },
-//             y: {
-//                 beginAtZero: true,
-//                 stepSize: 1,
-//             },
-//         },
-//     };
-
-//     return <Bar data={data} options={options} />;
-// }
 
 // export default Chart;
 import React, { useState, useEffect } from 'react';
