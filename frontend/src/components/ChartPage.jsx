@@ -21,7 +21,7 @@ function ChartPage() {
                     throw new Error('No token found');
                 }
 
-                const response = await axios.get('https://loginsignup-1-3df0.onrender.com/api/auth/users', {
+                const response = await axios.get('https://loginsignup-kh4d.onrender.com/api/auth/users', {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 
