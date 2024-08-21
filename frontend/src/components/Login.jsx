@@ -18,7 +18,7 @@
 //         // Check for admin credentials
 //         if (formData.email === 'admin@email.com' && formData.password === 'Admin@123') {
 //             try {
-//                 const response = await axios.post('http://localhost:5000/api/auth/admin-login', formData);
+//                 const response = await axios.post('https://loginsignup-ht65.onrender.com/api/auth/admin-login', formData);
 //                 const { token, user } = response.data;
                 
 //                 localStorage.setItem('token', token); // Store the token in localStorage
@@ -30,7 +30,7 @@
 //             }
 //         } else {
 //             try {
-//                 const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+//                 const response = await axios.post('https://loginsignup-ht65.onrender.com/api/auth/login', formData);
 //                 const { user, token } = response.data;
 
 //                 localStorage.setItem('token', token); // Store the token in localStorage
@@ -91,7 +91,7 @@ function Login() {
         // Check for admin credentials
         if (formData.email === 'admin@email.com' && formData.password === 'Admin@123') {
             try {
-                const response = await axios.post('http://localhost:5000/api/auth/admin-login', formData);
+                const response = await axios.post('https://loginsignup-ht65.onrender.com/api/auth/admin-login', formData);
                 const { token, user } = response.data;
                 
                 localStorage.setItem('token', token); // Store the token in localStorage
@@ -103,7 +103,7 @@ function Login() {
             }
         } else {
             try {
-                const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+                const response = await axios.post('https://loginsignup-ht65.onrender.com/api/auth/login', formData);
                 const { user, token } = response.data;
 
                 localStorage.setItem('token', token); // Store the token in localStorage
