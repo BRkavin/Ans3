@@ -153,7 +153,7 @@ function Signup() {
         }
 
         try {
-            await axios.post('http://localhost:5000/api/auth/signup', formData);
+            await axios.post('https://loginsignup-ml3l.onrender.com/api/auth/signup', formData);
             navigate('/login');
         } catch (error) {
             if (error.response && error.response.data.message) {
