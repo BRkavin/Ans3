@@ -153,7 +153,7 @@ function Signup() {
         }
 
         try {
-            await axios.post('https://loginsignup-ht65.onrender.com/api/auth/signup', formData);
+            await axios.post('https://loginsignup-1-bf1b.onrender.com/api/auth/signup', formData);
             navigate('/login');
         } catch (error) {
             if (error.response && error.response.data.message) {
