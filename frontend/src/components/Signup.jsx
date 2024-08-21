@@ -40,7 +40,7 @@ function Signup() {
         }
 
         try {
-            await axios.post('https://loginsignup-tmaz.onrender.com/api/auth/signup', formData);
+            await axios.post('https://loginsignup-1-3df0.onrender.com/api/auth/signup', formData);
             navigate('/login');
         } catch (error) {
             if (error.response && error.response.data.message) {
